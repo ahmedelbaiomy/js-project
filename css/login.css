@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    position: relative;
+}
+.container-fluid .login, .container-fluid .regist
+{
+    width: 52%;
+    height: 450px;
+    border: 2px solid #ccc;
+    position: absolute;
+    top: 13%;
+    background-color: white;
+    border-radius: 40px;
+    transform: translate(48%);
+}
+.container-fluid .regist
+{
+    height: 620px;
+}
+
+.login .logo h1{
+    font-size: 50px;
+    text-align: center;
+ /*   margin-left: 25%;*/
+    margin-top: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+}
+.regist .logo h1{
+    font-size: 50px;
+    text-align: center;
+   /* margin-left: 25%;*/
+    margin-top: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+}
+.login input, .regist input
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+}
+.login input[type=submit],.regist input[type=submit]
+{
+    width: 60%;
+    height: 40px;
+    margin: 0 20%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: none;
+  /*  transform: translate(20%);
+    */margin-top: 5%;
+}
+
+.login .media, .regist .media
+{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.login .media li , .regist .media li
+{
+   /*  margin: 5% 6%;*/
+     padding: 2%;
+} 
+.login p{
+    margin-top: 1%;
+    margin-left: 20%;
+}
+form>p{
+    margin-left: 20%;
+
+}
+p
+{
+    margin: 10% 7%;
+}
+.empty{
+    height: 720px;
+}
+.empty1
+{
+    height: 100%;
+ 
+    background-color: #ffcc00;
+    z-index: -1;
+}
+.empty2
+{
+    height: 100%;
+
+    background-color: #e91d43;
+    z-index: -1;
+}
+.empty .content
+{
+    margin-top: 35%;
+
+}
+.empty h1{
+    margin-left: 70px;
+    font-size: 80px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.empty p{
+    color: black;
+    font-size: 30px;
+    margin-left: 11%;
+}
+.empty2 p, .empty h1{
+    color: transparent;
+    margin-left:10%;
+}
+
+/*  ========= Validation ========= */
+
+span{
+    display: none;
+    color: red;
+    margin-left: 10%;
+    font-size: small;
+
+}
+.error{
+    border-bottom: 2px solid red;
+}

@@ -1,0 +1,121 @@
+{
+  "employees": [
+    {
+      "id": 8047,
+      "Firstname": "ahmed",
+      "Lastname": "elbaiomy",
+      "Email": "ahmedelbaiomy41@gmail.com",
+      "Age": "25",
+      "Address": "mansoura",
+      "Username": "ahmedelbaiomy25",
+      "PassWord": "123456789",
+      "flag": "1",
+      "attend": [],
+      "absent": [],
+      "late": [],
+      "Excuse": []
+    },
+    {
+      "id": 85201,
+      "Firstname": "ahmed",
+      "Lastname": "mohamed",
+      "Email": "ahmedmohamed50@gmail.com",
+      "Age": "25",
+      "Address": "mansoura",
+      "Username": "ahmedmohamed25",
+      "PassWord": "f10r6vef",
+      "flag": "0",
+      "attend": [
+        "11/02/2021"
+      ],
+      "absent": [
+        "2/11/2021, 3:56:59 AM"
+      ],
+      "late": [
+        "2/11/2021, 8:23:59 AM",
+        "2/11/2021, 12:37:39 PM"
+      ],
+      "Excuse": [
+        "2/11/2021",
+        "2/11/2021"
+      ],
+      "time": "16:20:44"
+    },
+    {
+      "id": 29609,
+      "Firstname": "abo",
+      "Lastname": "elsohaaaab",
+      "Email": "shimaa.safwat112@gmail.com",
+      "Age": "24",
+      "Address": "tanta",
+      "Username": "aboelsohaaaab24",
+      "PassWord": "2c1si5uq",
+      "flag": "0",
+      "attend": [],
+      "absent": [],
+      "late": [],
+      "Excuse": [
+        "2/11/2021"
+      ],
+      "time": "16:19:24"
+    },
+    {
+      "id": 48735,
+      "Firstname": "ahmed",
+      "Lastname": "sayed",
+      "Email": "ahmedelsayed41@gmail.com",
+      "Age": "25",
+      "Address": "mansoura",
+      "Username": "ahmedsayed25",
+      "PassWord": "j3hgiojj",
+      "flag": "0",
+      "attend": [],
+      "absent": [],
+      "late": [
+        "2/11/2021, 12:28:54 PM"
+      ],
+      "Excuse": [
+        "2/11/2021"
+      ],
+      "time": "16:18:22"
+    },
+    {
+      "id": 56566,
+      "Firstname": "aboelsohab",
+      "Lastname": "taniiiii",
+      "Email": "shimaa.safwat1@gmail.com",
+      "Age": "24",
+      "Address": "tanta",
+      "Username": "aboelsohabtaniiiii24",
+      "PassWord": "y12fb0o7",
+      "flag": "0",
+      "attend": [],
+      "absent": [],
+      "late": [
+        "2/11/2021, 7:55:02 PM"
+      ],
+      "Excuse": [
+        "2/11/2021"
+      ],
+      "time": "19:57:9"
+    },
+    {
+      "id": 72701,
+      "Firstname": "nasr",
+      "Lastname": "kasem",
+      "Email": "engnasr@yahoo.com",
+      "Age": "30",
+      "Address": "mansoura",
+      "Username": "nasrkasem30",
+      "PassWord": "ixdsxxha",
+      "flag": "0",
+      "attend": [],
+      "absent": [],
+      "late": [
+        "2/13/2021, 1:26:16 PM"
+      ],
+      "Excuse": [],
+      "time": "13:26:16"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Registration</title>
+        <link href="../css/login.css" rel="stylesheet" type="text/css">
+        <link href="../bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../fonts/css/font-awesome.css" rel="stylesheet">
+        <script type="text/javascript" src="../js/registration.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+      
+
+    </head>
+    <body>
+        <!--R e g i s t r a t i o n-->
+
+        <div class="container-fluid">
+
+            <section class="row regist">
+                <div class="col-md-12 col-sm-12">
+                <div class="logo">
+                    <h1>VANILLA</h1>
+                </div>
+
+                <form method="post">
+
+                    <input type="text" class="form-control" id="userfirstname" placeholder="First name">
+                        <span id="firstnameerror">Not Valid Name , it must be letters</span>
+
+                    <input type="text" class="form-control" id="userlastname" placeholder="Last name">
+                        <span id="lastnameerror">Not Valid Name , it must be letters</span>
+
+                    <input type="text" class="form-control" id="useradd" placeholder="Address">
+                        <span id="addresserror">Not Valid Address</span>
+
+                    <input type="text" class="form-control" id="useremail" placeholder="Email">
+                    <span id="emailerror">Not Valid Mail</span>
+
+
+                    <input type="text" class="form-control" id="userage" placeholder="Age">
+                    <span id="ageerror">Not Valid Age</span>
+
+                    
+                    <input type="submit" value="Registration" class="bg-success">
+                    <p>You already have an account? <a href="login.html">Login</a></p>
+                </form>
+
+                <div class="row media" style="text-align: center;">
+                    <div class="col-md-12">
+                        <li class="fa fa-google-plus fa-2x" style="color: red;"></li>
+                        <li class="fa fa-facebook fa-2x" style="color: blue;"></li>
+                        <li class="fa fa-twitter fa-2x" style="color: dodgerblue;"></li>
+                        <li class="fa fa-github fa-2x" style="color: #3c3c3c;"></li>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <div class="row empty">
+                <div class="empty1 col-6">
+                    <div class="content">
+                        <h1>WELCOME!</h1>
+                        <p>REGISTER AND ENJOY</p>
+
+                    </div>
+                </div>
+
+
+                <div class="empty2 col-6">
+                    <div class="content">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <script src="../fonts/js/JQuery-3.3.1.min.js"></script>
+        <script src="../fonts/js/popper.js"></script>
+        <script src="../fonts/js/bootstrap.js"></script>
+    </body>
+</html>
